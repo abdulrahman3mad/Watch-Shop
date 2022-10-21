@@ -1,0 +1,98 @@
+/*--Start Font Faces--*/
+@font-face {
+    font-family: Roboto;
+    src: url("../../fonts/Roboto/Roboto-Bold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("../../fonts/Roboto/Roboto-Medium.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("../../fonts/Roboto/Roboto-Light.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("../../fonts/Roboto/Roboto-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Josefin;
+    src: url("../../fonts/JosefinSans/JosefinSans-Bold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Josefin;
+    src: url("../../fonts/JosefinSans/JosefinSans-Medium.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Josefin;
+    src: url("../../fonts/JosefinSans/JosefinSans-SemiBold.ttf");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Josefin;
+    src: url("../../fonts/JosefinSans/JosefinSans-Regular.ttf");
+    font-weight: 400;
+}
+/*--End Font Faces--*/
+
+/*--Start Declaration Of Main Variables--*/
+:root{
+    --ff-primary:Roboto;
+    --ff-secondary:Josefin;
+
+    --ff-body:var(--ff-primary);
+    --ff-heading:var(--ff-secondary);
+
+    --fw-light:300;
+    --fw-regular:400;
+    --fw-medium:500;
+    --fw-semi-bold:600;
+    --fw-bold:700;
+
+
+    --clr-primary:#0B1C39;
+    --clr-accent:#FF2020;
+
+}
+/*--End Declaration Of Main Variables--*/
+
+
+body {font-family: var(--ff-body); font-weight: var(--fw-regular);}
+
+a {text-decoration: none !important}
+
+ul {list-style: none; padding: 0}
+
+h1 {font-size: clamp(2rem, 6vw, 6rem)}
+
+h2 {font-size: clamp(2rem, 4vw, 3rem)}
+
+h3 {font-size: clamp(1.1rem, 4vw, 1.3rem)}
+
+h5{font-size:clamp}
+
+p {
+    font-size: clamp(1rem, 2vw, 1.1rem);
+    line-height: 1.7;
+}
+
+input:focus, textarea:focus{
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+    color:black !important
+}
+
+img {width: 100%}

@@ -1,0 +1,29 @@
+.heading{
+    font-family: var(--ff-heading);
+    font-weight: var(--fw-bold);
+    color: var(--clr-primary);
+}
+
+.ff-primary{font-family: var(--ff-primary)}
+
+.ff-secondary{font-family: var(--ff-secondary)}
+
+.fw-bold{font-weight:var(--fw-bold)}
+
+.fw-semibold{font-weight:var(--fw-semibold)}
+
+.fw-medium{font-weight:var(--fw-medium)}
+
+.fw-regular{font-weight:var(--fw-regular)}
+
+.fw-light{font-weight:var(--fw-light)}
+
+.clr-primary{color:var(--clr-primary)}
+
+.clr-accent{color:var(--clr-accent)}
+
+.bg-primary{background-color: var(--clr-primary)}
+
+.clr-accent{background-color:var(--clr-accent)}
+
+.sec-padding{padding: 150px 0;}
